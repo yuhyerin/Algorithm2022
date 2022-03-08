@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 
-public class 신고결과받기 {
+public class L1_신고결과받기 {
 	/**
 	 * 각 유저는 한번에 한명의 유저 신고 가능  
 	 * 신고횟수 제한 x 
@@ -14,7 +14,7 @@ public class 신고결과받기 {
 	 * 해당유저를 신고한 모든유저에게 정지사실이 메일로 발송.
 	 * */
 	public static void main(String[] args) {
-		신고결과받기 t = new 신고결과받기();
+		L1_신고결과받기 t = new L1_신고결과받기();
 //		String[] id_list = {"muzi", "frodo", "apeach", "neo"};
 		String[] id_list = {"con", "ryan"};
 //		String[] report = {"muzi frodo","apeach frodo","frodo neo","muzi neo","apeach muzi"};

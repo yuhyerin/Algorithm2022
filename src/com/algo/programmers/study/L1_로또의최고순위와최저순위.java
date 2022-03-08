@@ -2,10 +2,10 @@ package com.algo.programmers.study;
 
 import java.util.Arrays;
 
-public class 로또의최고순위와최저순위 {
+public class L1_로또의최고순위와최저순위 {
 	
 	public static void main(String[] args) {
-		로또의최고순위와최저순위 t = new 로또의최고순위와최저순위();
+		L1_로또의최고순위와최저순위 t = new L1_로또의최고순위와최저순위();
 //		int[] lottos = {44, 1, 0, 0, 31, 25};
 		int[] lottos = {0, 0, 0, 0, 0, 0};
 		int[] win_nums = {31, 10, 45, 1, 6, 19};

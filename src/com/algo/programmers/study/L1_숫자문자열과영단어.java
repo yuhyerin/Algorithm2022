@@ -1,9 +1,9 @@
 package com.algo.programmers.study;
 
-public class 숫자문자열과영단어 {
+public class L1_숫자문자열과영단어 {
 	
 	public static void main(String[] args) {
-		숫자문자열과영단어 t = new 숫자문자열과영단어();
+		L1_숫자문자열과영단어 t = new L1_숫자문자열과영단어();
 		String s = "123";
 		System.out.println(t.solution(s));
 	}
