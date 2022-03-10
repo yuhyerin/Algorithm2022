@@ -89,14 +89,10 @@ public class BJ_3187_양치기꿍 {
 			
 		}// end while 
 		
-		if(wolf==0 && sheep>0) {
-			sheepCnt+=sheep;
-		}else if(sheep==0 && wolf>0) {
+		if(sheep<=wolf) {
 			wolfCnt+=wolf;
-		}else if(wolf<sheep) {
+		}else {
 			sheepCnt+=sheep;
-		}else if(wolf>=sheep) {
-			wolfCnt+=wolf;
 		}
 		
 	}
